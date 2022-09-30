@@ -81,9 +81,9 @@ sdal = c(sd1, sd2, sd4, sd5, sd6, sd7, sd8, sd9, sd10, sd11, sd12, sd13, sd14,
 
 #Cálculo do novo x-bb e dos limites
 xbbal = mean(xbal)
-lscxal = xbbal + 0.729*rb;lscxal
+lscxal = xbbal + 0.729*rbal;lscxal
 lcxal = xbbal;lcxal
-licxal = xbbal - 0.729*rb;licxal
+licxal = xbbal - 0.729*rbal;licxal
 
 #Novo gráfico de x-b
 plot(xbal, xlab = "amostra", ylab = "média", type='o')
